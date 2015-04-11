@@ -1,0 +1,95 @@
+/* Annotated CSS styles for Login.java */
+body {
+	background-color: #fff;
+	font-family: Georgia, Times, serif;
+	color: #000;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+@sprite .cancel {
+	gwt-image: "cancel";
+	position: absolute;
+	right: 90px;
+}
+
+.fieldGroup {
+	position: relative;
+	width: 50%;
+	padding-bottom: 20px;
+	margin-left: 34%;
+	padding-top: 20px;
+}
+
+.label {
+	position: absolute;
+	width: 70px;
+	margin-right: 15px;
+}
+
+.field {
+	position: relative;
+	left: 80px;
+	margin-left: 15px;
+}
+
+#save {
+	position: relative;
+	background: #34d9a7;
+	background-image: -webkit-linear-gradient(top, #34d9a7, #073312);
+	background-image: -moz-linear-gradient(top, #34d9a7, #073312);
+	background-image: -ms-linear-gradient(top, #34d9a7, #073312);
+	background-image: -o-linear-gradient(top, #34d9a7, #073312);
+	background-image: linear-gradient(to bottom, #34d9a7, #073312);
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	margin-left: 10cm;
+	left: 47%;	
+}
+
+#save:hover {
+	position: relative;
+	background: #073312;
+	background-image: -webkit-linear-gradient(top, #073312, #34d9a7);
+	background-image: -moz-linear-gradient(top, #073312, #34d9a7);
+	background-image: -ms-linear-gradient(top, #073312, #34d9a7);
+	background-image: -o-linear-gradient(top, #073312, #34d9a7);
+	background-image: linear-gradient(to bottom, #073312, #34d9a7);
+	text-decoration: none;
+} 
+textArea {
+	width: 50%;
+	height: 80px;
+	left: 10%;
+}
+
+input {
+	width: 60%;
+	height: 2.0em;
+}
+
+password {
+	width: 60%;
+	height: 2.0em;
+}
+
+.title {
+	padding-top: 10px;
+	padding-left: 5px;
+	height: 30px;
+	overflow: hidden;
+	white-space: nowrap;
+	border-left: 10px solid #f00;
+}
+
+.errorlabel {
+	position: relative;
+	left: 70px;
+	color: #ff0000;
+}

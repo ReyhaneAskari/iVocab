@@ -1,0 +1,59 @@
+/* Annotated CSS styles for Login.java */
+body {
+  background-color: #fff;
+  font-family: Georgia, Times, serif;
+  color: #f00;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.synonymRow {
+  position: relative;
+  height: 40px;
+  background-color: #e0fdf0;
+  border-bottom: 4px solid #7b9086;
+  color: #000;
+}
+
+.title {
+  padding-top: 10px;
+  padding-left: 5px;
+  height: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+  /* border-left: 10px solid #f00; */
+}
+
+@sprite .checked {
+  gwt-image: "checkMark";
+}
+
+@sprite .unChecked {
+  gwt-image: "checkBox";
+  margin-top: 2px;
+}
+.checkBoxContainer {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 40px;
+  padding-left: 10px;
+  padding-top: 10px;
+  height: 30px;
+  background-color: #e0fdf0;
+}
+@sprite .signout {
+	gwt-image: "signout";
+	position: absolute;
+	right: 0px;
+}
+@sprite .cancel {
+	gwt-image: "cancel";
+	position: absolute;
+	right: 90px;
+}
+@sprite .save {
+	gwt-image: "save";
+	position: absolute;
+	right: 180px;
+}

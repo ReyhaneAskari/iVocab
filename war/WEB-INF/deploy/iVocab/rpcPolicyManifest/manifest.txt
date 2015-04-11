@@ -1,0 +1,3 @@
+# Module iVocab
+# RPC service class, partial path of RPC policy file
+ca.concordia.ivocab.client.iVocabApi, 58C230E326CAACD0A2BB396D35260FA3.gwt.rpc

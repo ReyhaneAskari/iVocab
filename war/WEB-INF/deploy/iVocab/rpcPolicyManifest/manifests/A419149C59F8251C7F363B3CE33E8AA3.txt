@@ -1,0 +1,2 @@
+serviceClass: ca.concordia.ivocab.client.iVocabApi
+path: 58C230E326CAACD0A2BB396D35260FA3.gwt.rpc

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>iVocab.html</welcome-file>
+  </welcome-file-list>
+
+  <!-- Servlets -->
+  <servlet>
+    <servlet-name>iVocabApi</servlet-name>
+    <servlet-class>ca.concordia.ivocab.server.iVocabApiImpl</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>iVocabApi</servlet-name>
+    <url-pattern>/iVocab/api</url-pattern>
+  </servlet-mapping>
+</web-app>

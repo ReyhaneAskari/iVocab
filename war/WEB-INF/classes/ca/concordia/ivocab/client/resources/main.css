@@ -1,0 +1,160 @@
+/* Annotated CSS styles for Login.java */
+body {
+	background-color: #fff;
+	font-family: Georgia, Times, serif;
+	color: #000;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+.fieldGroup {
+	position: relative;
+	width: 50%;
+	padding-bottom: 20px;
+}
+
+.label {
+	position: absolute;
+	width: 70px;
+}
+
+.vocabRow {
+	position: relative;
+	color: black;
+	top : 0;
+	margin-left: 40%;
+	margin-right: 40%;
+	margin-top: -5%;
+	text-align: center;
+	font-size: 24px;
+}
+.welcome{
+	position: relative;
+	color: black;
+	left: 50%;	
+	margin-top: 0;
+	text-align: center;
+	font-size: 24px;
+	border-bottom: 4px solid #073312;
+	border-left: 4px solid #073312;
+	border-right: 4px solid #073312;
+	border-top: 4px solid #073312;
+	width: 100%;
+}
+#welcome{
+	top: 0;
+	left: 0;
+}
+#first {
+	border-top: 5px solid #073312;	
+}
+
+.wordRow {
+	margin-bottom: 5%;
+	bottom: 10px;
+	color: black;
+	/* width : 50%;         */
+	background-color: #ddd;
+	border-bottom: 4px solid #073312;
+	border-left: 4px solid #073312;
+	border-right: 4px solid #073312;
+	border-top: 4px solid #073312;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-size: 24px;
+}
+
+.synRow {
+	color: black;
+	background-color: #fff;
+	border-left: 5px solid #073312;
+	border-right: 5px solid #073312;	
+	border-bottom: 4px solid #073312;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-size: 20px;
+}
+
+@sprite .RightButton {
+	gwt-image: "RightButton";
+	position: relative;
+	/* width: 40px;
+  	height: 30px; */
+	left: 72%;
+	/* top : 250px; */
+	margin-top: -40px;
+	z-index:10;
+	/* top : -100px;  */
+/* margin-top: -50px;  */
+}
+
+@sprite .leftButton {
+	gwt-image: "leftButton";
+	position: relative;
+	left: 25%;
+	/* top : 250px; */
+	margin-top: 10%;
+	z-index:10;
+	/* top : 100px; 
+  	margin-top: -150px; */
+}
+
+/* #buttons{
+	position: relative;	  	  	  
+  	margin-top: 50px;
+} */
+.field {
+	position: relative;
+	left: 80px;
+}
+
+.title {
+	padding-top: 10px;
+	padding-left: 5px;
+	height: 30px;
+	overflow: hidden;
+	white-space: nowrap;
+	/* border-left: 10px solid #f00; */
+}
+
+.search {
+	float: left;
+	position: relative;
+	display: block;
+	left: 5%;
+	margin-bottom: 1%;
+	bottom: 1%;
+}
+
+#searchword {
+	/* float:left; */
+	position: relative;
+	/* display: block; */
+	left: 5%;
+	margin-bottom: 15%;
+	bottom: 10%;
+	width: 40%;
+}
+
+#box {
+	position: relative;
+	/* display: block; */
+	left: 1%;
+	margin-bottom: 20%;
+	bottom: 20%;
+}
+
+@sprite .SearchButton {
+	gwt-image: "SearchButton";
+	position: absolute;
+	left: 47%;
+}
+
+@sprite .SignoutButton {
+	gwt-image: "SignoutButton";
+	position: absolute;
+	right: 0;
+	top: 0;
+}

@@ -1,0 +1,31 @@
+/* Annotated CSS styles for ControlBar.java */
+
+@sprite .controlBar {
+  position: relative;
+  gwt-image: "topBarBg";
+  height: 55px;
+  width: 100%;
+  overflow: visible;
+  z-index: 10;
+}
+
+.control {
+  position: absolute;
+  top: 10px;
+}
+.fieldGroup {
+  position: relative;
+  width: 100%;
+  padding-bottom: 30px;  
+}
+.label {
+  position: absolute;
+  width: 50px;
+  margin-top: 15px;
+}
+.field {
+  margin-top: 15px;
+  position: relative;  
+  left: 65px;
+  width: 50px;
+}
